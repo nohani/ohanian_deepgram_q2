@@ -8,6 +8,11 @@ This project is in response to Question #2 for Deepgram's Interviewing Process. 
 * @deepgram/sdk
 * node-jq
 
+### Getting Started
+* Clone the repository locally.
+* Navigate to the cloned folder in your terminal and type "npm i" or "npm install".
+* Once all the packages are installed, type "node index.js" to run the code. You should get the output in the terminal.
+
 My goal was to take the output of the sdk and render it into a more readable and visually pleasing format. 
 
 ### Notes about My Thought Process
