@@ -28,7 +28,6 @@ deepgram.transcription.preRecorded(bufferSource, {
   // I used the console.log's above to see what the output was; I used Util to have more
   // detail in the printed object
 
-  //Although the output is
   const filter = '[.[] | { speaker, transcript }]';
   const json = transcription.results.utterances;
   const options = { input: 'json'};
@@ -37,7 +36,7 @@ deepgram.transcription.preRecorded(bufferSource, {
     .then(result => {
       // console.log("result", result, typeof result)
 
-      // Since the output came out as a string type, I used JSON parse to parse it into a JSON Array
+      // Since the result came out as a string type, I used JSON parse to parse it into a JSON Array
       const resultObject = JSON.parse(result)
 
       let prettifiedTranscript = '';
